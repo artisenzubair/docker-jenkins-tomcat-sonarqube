@@ -15,7 +15,7 @@ sudo docker run -d --name jenkins -p 8080:8080 -p 50000:50000 jenkins/jenkins:lt
 sudo docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
 
 # Run Tomcat container
-sudo docker run -d --name tomcat -p 9090:8080 tomcat
+sudo docker run -d --name tomcat -p 9090:8080 tomcat:8.0
 
 # Display URLs
 jenkins_url="http://localhost:8080"
